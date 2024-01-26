@@ -1,3 +1,5 @@
+# Personality Perception in Human Videos Altered by Motion Transfer Networks
+
 The software provides functionality for an extensive analysis of Thin-Plate Spline Motion Model (TPS) performance in portraying personality through utilizing different samples as the source and driving inputs.
 
 The repository contains the implementation of the framework, including functionality for the analysis of two user studies, data, and user study results for further studies. 
