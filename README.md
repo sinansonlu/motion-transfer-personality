@@ -6,3 +6,5 @@ The repository contains the implementation of the framework, including functiona
 
 Original Thin-Plate Spline Motion Model Repository: https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model
 Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlAAIwyGVn1loH_?usp=sharing
+
+The code in Analysis/Analysis.ipynb can produce the analysis in Tables 2, 3, 5, 6, and 7 of the article and the charts in Figures 1 and 4.
