@@ -10,7 +10,7 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
 ## Running Instructions
 - [TED-Samples-50](TED-Samples-50) directory contains the 50 samples rated for their personalities in our user study.
 - [Selected Samples](Selected%20Samples) directory contains the low, neutral, and high samples chosen per personality factor.
-- [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples. This Notebook file can run on Google Colab and includes any necessary downloads for functioning, including:
+- [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples. This Notebook file can run on [Google Colab](https://colab.research.google.com/) and includes any necessary downloads for functioning, including:
   -  Downloading [TPS](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.git) Model for pose transfer
   -  Installing [mediapipe](https://pypi.org/project/mediapipe/) for pose estimation
   -  Importing [TED-Talks](https://paperswithcode.com/dataset/ted-talks) dataset
@@ -22,4 +22,4 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
   - The code runs ANOVA and TukeyHSD analysis on the data and produces box charts to summarize the results
   - Dependencies:
     - `numpy, matplotlib, seaborn, scipy, statsmodels, factor_analyzer, sklearn, `
-- Included codes are tested on Google Colab with Python 3.10.12
+- Included codes are tested on [Google Colab](https://colab.research.google.com/) with Python 3.10.12
