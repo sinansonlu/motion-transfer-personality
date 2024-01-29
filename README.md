@@ -13,5 +13,9 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
 - [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples. This Notebook file can run on Google Colab and includes any necessary downloads for functioning, including:
   -  Downloading [TPS](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.git) Model for pose transfer
   -  Installing [mediapipe](https://pypi.org/project/mediapipe/) for pose estimation
+  -  Importing [TED-Talks](https://paperswithcode.com/dataset/ted-talks) dataset
+  -  Dependencies:
+    - `GoogleAuth, GoogleDrive, GoogleCredentials` 
 - [Generated Samples](Generated%20Samples) directory contains altered samples used in our second user study.
 - The code in [Analysis/Analysis.ipynb](Analysis/Analysis.ipynb) can produce the analysis in Tables 2, 3, 5, 6, and 7 of the article and the charts in Figures 1 and 4.
+  - This code uses our study results included in [Analysis/FirstStudy.csv](Analysis/FirstStudy.csv) and [Analysis/SecondStudy.csv](Analysis/SecondStudy.csv)
