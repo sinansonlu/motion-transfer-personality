@@ -10,6 +10,8 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
 ## Running Instructions
 - [TED-Samples-50](TED-Samples-50) directory contains the 50 samples rated for their personalities in our user study.
 - [Selected Samples](Selected%20Samples) directory contains the low, neutral, and high samples chosen per personality factor.
-- [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples. This Notebook file can run on Google Colab and includes any necessary downloads for functioning:
-  -  Downloads [TPS](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.git) Model
+- [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples. This Notebook file can run on Google Colab and includes any necessary downloads for functioning, including:
+  -  Downloading [TPS](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.git) Model for pose transfer
+  -  Installing [mediapipe](https://pypi.org/project/mediapipe/) for pose estimation
+- [Generated Samples](Generated%20Samples) directory contains altered samples used in our second user study.
 - The code in [Analysis/Analysis.ipynb](Analysis/Analysis.ipynb) can produce the analysis in Tables 2, 3, 5, 6, and 7 of the article and the charts in Figures 1 and 4.
