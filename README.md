@@ -8,5 +8,6 @@ Original Thin-Plate Spline Motion Model Repository: https://github.com/yoyo-nb/T
 Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlAAIwyGVn1loH_?usp=sharing
 
 ## Running Instructions
-- [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples.
+- [Thin_Plate_Spline_Motion_Model.ipynb](Thin_Plate_Spline_Motion_Model.ipynb) contains the code to generate the altered video samples. This Notebook file can run on Google Colab and includes any necessary downloads for functioning:
+  -  Downloads [TPS](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.git) Model
 - The code in [Analysis/Analysis.ipynb](Analysis/Analysis.ipynb) can produce the analysis in Tables 2, 3, 5, 6, and 7 of the article and the charts in Figures 1 and 4.
