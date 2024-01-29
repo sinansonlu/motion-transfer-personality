@@ -22,3 +22,4 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
   - The code runs ANOVA and TukeyHSD analysis on the data and produces box charts to summarize the results
   - Dependencies:
     - `numpy, matplotlib, seaborn, scipy, statsmodels, factor_analyzer, sklearn, `
+- Included codes are tested on Google Colab with Python 3.10.12
