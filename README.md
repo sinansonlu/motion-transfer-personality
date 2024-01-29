@@ -15,7 +15,7 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
   -  Installing [mediapipe](https://pypi.org/project/mediapipe/) for pose estimation
   -  Importing [TED-Talks](https://paperswithcode.com/dataset/ted-talks) dataset
   -  Dependencies:
-    - `GoogleAuth, GoogleDrive, GoogleCredentials, drive, torch, mediapipe, imageio, numpy, scipy, skimage, pandas, gspread` 
+      - `GoogleAuth, GoogleDrive, GoogleCredentials, drive, torch, mediapipe, imageio, numpy, scipy, skimage, pandas, gspread` 
 - [Generated Samples](Generated%20Samples) directory contains altered samples used in our second user study.
 - The code in [Analysis/Analysis.ipynb](Analysis/Analysis.ipynb) produces the analysis in Tables 2, 3, 5, 6, and 7 of the article and the charts in Figures 1 and 4. The cells containing the related code are marked within the Notebook file.
   - This code uses our study results included in [Analysis/FirstStudy.csv](Analysis/FirstStudy.csv) and [Analysis/SecondStudy.csv](Analysis/SecondStudy.csv)
