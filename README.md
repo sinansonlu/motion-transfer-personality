@@ -16,7 +16,8 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
   -  Importing [TED-Talks](https://paperswithcode.com/dataset/ted-talks) dataset
   -  Dependencies:
       - `GoogleAuth, GoogleDrive, GoogleCredentials, drive, torch, mediapipe, imageio, numpy, scipy, skimage, pandas, gspread`
-  - Note that this code requires a default pose image to choose representatives for the video samples. Any image that contains an idle upper body can be used, we provide the one used in our study as [default_pose.png](default_pose.png).
+  - Note that this code requires a default pose image to choose representatives for the video samples. Any image that contains an idle upper body can be used; we provide the one used in our study as [default_pose.png](default_pose.png).
+  - The samples in [TED-Samples-50](TED-Samples-50) directory should be copied to the MotionTransfer folder to be used by TPS.
 - [Generated Samples](Generated%20Samples) directory contains altered samples used in our second user study.
 - The code in [Analysis/Analysis.ipynb](Analysis/Analysis.ipynb) produces the analysis in **Tables 2, 3, 5, 6, and 7** of the article and the charts in **Figures 1 and 4**. The cells containing the related code are marked within the Notebook file.
   - This code uses our study results included in [Analysis/FirstStudy.csv](Analysis/FirstStudy.csv) and [Analysis/SecondStudy.csv](Analysis/SecondStudy.csv)
