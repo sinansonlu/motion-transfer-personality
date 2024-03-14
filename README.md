@@ -25,3 +25,25 @@ Original Notebook: https://colab.research.google.com/drive/1DREfdpnaBhqISg0fuQlA
   - Dependencies:
     - `numpy, matplotlib, seaborn, scipy, statsmodels, factor_analyzer, sklearn, `
 - Included codes are tested on [Google Colab](https://colab.research.google.com/) with Python 3.10.12
+
+
+If you find this work useful, please cite 
+
+Ayda Yurtoğlu, Sinan Sonlu, Yalım Doğan, and Uğur Güdükbay. Personality Perception in Human Videos Altered by Motion Transfer Networks. Computers & Graphics, 119:Article No. 103886, 11 pages, April 2024.
+
+```
+@Article{YurtogluSDG2024,
+	author	=	{Ayda Yurto{\^g}lu and Sinan Sonlu and Yal{\i}m Do{\^g}an and U{\^g}ur G{\"u}d{\"u}kbay},
+	title = {Personality Perception in Human Videos Altered by Motion Transfer Networks},
+	journal = {Computers \& Graphics},
+	volume = {119},
+	pages = {Article No. 103886, 11 pages},
+	year = {2024},
+	month	= {April},
+	issn = {0097-8493},
+	doi = {https://doi.org/10.1016/j.cag.2024.01.013},
+	url = {https://www.sciencedirect.com/science/article/pii/S009784932400013X},
+	keywords = {Pedestrian detection and tracking, Data-driven simulation, Three-dimensional reconstruction, Crowd simulation, Augmented reality, Deep learning},
+	abstract = {Crowd simulations imitate the group dynamics of individuals in different environments. Applications in entertainment, security, and education require augmenting simulated crowds into videos of real people. In such cases, virtual agents should realistically interact with the environment and the people in the video. One component of this augmentation task is determining the navigable regions in the video. In this work, we utilize semantic segmentation and pedestrian detection to automatically locate and reconstruct the navigable regions of surveillance-like videos. We place the resulting flat mesh into our 3D crowd simulation environment to integrate virtual agents that navigate inside the video avoiding collision with real pedestrians and other virtual agents. We report the performance of our open-source system using real-life surveillance videos, based on the accuracy of the automatically determined navigable regions and camera configuration. We show that our system generates accurate navigable regions for realistic augmented crowd simulations.}
+}
+```
